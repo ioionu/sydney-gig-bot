@@ -9,3 +9,13 @@
 Edit `.env.prod` with server url and app token.
 
 `set -o allexport; source .env.prod; set +o allexport; ./gigs.py`
+
+##  Deploy
+
+Install piku https://github.com/piku/piku
+
+`git remote add piku piku@some.server:sydney-bot`
+
+`git push piku main`
+
+`piku config:set \`cat .env.prod\``
