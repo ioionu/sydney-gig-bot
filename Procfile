@@ -1,1 +1,1 @@
-cron: 2 13 * * * python gigs.py
+cron: 25 2 * * * python gigs.py

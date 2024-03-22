@@ -18,4 +18,4 @@ Install piku https://github.com/piku/piku
 
 `git push piku main`
 
-`piku config:set \`cat .env.prod\``
+```piku config:set `cat .env.prod````
